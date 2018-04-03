@@ -12,7 +12,7 @@ for (loopTracker = 0; loopTracker < bands.length; loopTracker += 1) {
 
   // Get a reference to the current item in the bands array
   const currentBand = bands[loopTracker];
-  console.log(currentBand);
+
 
   // Update the innerHTML value of the DOM element for bands
   bandElement.innerHTML += "<p>"
@@ -20,7 +20,6 @@ for (loopTracker = 0; loopTracker < bands.length; loopTracker += 1) {
   bandElement.innerHTML += "</p>";
   // Get a reference to the current item in the vegetables array
   const currentVeggie = vegetables[loopTracker];
-console.log(currentVeggie);
 
   // Update the innerHTML value of the DOM element for vegetables
   veggieElement.innerHTML += "<p>" + currentVeggie + "</p>";
